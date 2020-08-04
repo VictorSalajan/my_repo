@@ -57,14 +57,15 @@ def testGreedys(foods, maxUnits):
     print('\nUse greedy by density to allocate', maxUnits, 'calories')
     testGreedy(foods, maxUnits, Food.density)
 
-names = ['wine', 'beer', 'pizza', 'burger', 'fries',
-         'cola', 'apple', 'donut', 'cake']
-values = [89,90,95,100,90,79,50,10]
-calories = [123,154,258,354,365,150,95,195]
+if __name__ == "__main__":
+    names = ['wine', 'beer', 'pizza', 'burger', 'fries',
+            'cola', 'apple', 'donut', 'cake']
+    values = [89,90,95,100,90,79,50,10]
+    calories = [123,154,258,354,365,150,95,195]
 
-print("Applying a Greedy Optimization Algorithm for choosing foods to eat. \n" + \
-      "Objective function: maximize (pleasure) value. \n" + \
-      "Metrics: value, least calories, density (value/calories).\n")
+    print("Applying a Greedy Optimization Algorithm for choosing foods to eat. \n" + \
+        "Objective function: maximize (pleasure) value. \n" + \
+        "Metrics: value, least calories, density (value/calories).\n")
 
-foods = buildMenu(names, values, calories)
-testGreedys(foods, 750)
+    foods = buildMenu(names, values, calories)
+    testGreedys(foods, 750)
