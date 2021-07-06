@@ -26,10 +26,11 @@ for i, tbody in enumerate(tbodies):
         countries_and_capitals.append((country, capital))
 
 geolocator = Nominatim(user_agent='map_scraped_capitals')
+geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 
 m = folium.Map()
 for loc_tuple in countries_and_capitals:
-    geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
+    print('This may take a while, due to the usage policy of the geomapping API...')
     country, capital = loc_tuple[0], loc_tuple[1]
     location = {'country': country, 'city': capital}
     coordinates = geocode(location)

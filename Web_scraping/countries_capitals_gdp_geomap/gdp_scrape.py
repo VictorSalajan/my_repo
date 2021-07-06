@@ -71,6 +71,7 @@ geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 
 if not(path.exists('gdp_per_capita.html')):
     m = folium.Map()
+    print('This may take a while, due to the usage policy of the geomapping API...')
     for country, capital, gdp in zip(df.country, df.capital, df.gdp_per_capita):
         location = {'country': country, 'city': capital}
         try:
