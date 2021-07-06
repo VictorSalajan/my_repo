@@ -1,0 +1,3045 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1e2bbb94e9e94cb3a8acc05a66bc41f9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1e2bbb94e9e94cb3a8acc05a66bc41f9" ></div>
+        
+</body>
+<script>    
+    
+            var map_1e2bbb94e9e94cb3a8acc05a66bc41f9 = L.map(
+                "map_1e2bbb94e9e94cb3a8acc05a66bc41f9",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f549e5d3f024989b6e9dffaccd7d35d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            var marker_741d4ce993784063a01802f441c0c0b0 = L.marker(
+                [43.7311424, 7.4197576],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_741d4ce993784063a01802f441c0c0b0.bindTooltip(
+                `<div>
+                     Monaco, Monaco: $190,532
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc4a0b00300c49a8abb072adc271f04a = L.marker(
+                [47.1392862, 9.5227962],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_bc4a0b00300c49a8abb072adc271f04a.bindTooltip(
+                `<div>
+                     Liechtenstein, Vaduz: $179,258
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_123f6d85ed96428586300e0a6afb2dc8 = L.marker(
+                [49.6112768, 6.129799],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_123f6d85ed96428586300e0a6afb2dc8.bindTooltip(
+                `<div>
+                     Luxembourg, Luxembourg: $115,481
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04c10bbe335748e2a07fedba3329c829 = L.marker(
+                [32.2956076, -64.7827048],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_04c10bbe335748e2a07fedba3329c829.bindTooltip(
+                `<div>
+                     Bermuda, Hamilton: $117,768
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d24c46c3f5747f593cdacbe0bdf039d = L.marker(
+                [19.2953549, -81.3807776],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_0d24c46c3f5747f593cdacbe0bdf039d.bindTooltip(
+                `<div>
+                     Cayman Islands, George Town: $92,692
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20926f5b17a441be9a4f9acf968cc2bc = L.marker(
+                [46.9482713, 7.4514512],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_20926f5b17a441be9a4f9acf968cc2bc.bindTooltip(
+                `<div>
+                     Switzerland, Bern: $85,135
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29857bd7d52c4b6bb6da88b917295feb = L.marker(
+                [53.3497645, -6.2602732],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_29857bd7d52c4b6bb6da88b917295feb.bindTooltip(
+                `<div>
+                     Republic of Ireland, Dublin: $81,637
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d04c44f4df334a4cb6e7bb5afad182e1 = L.marker(
+                [22.1757605, 113.5514142],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_d04c44f4df334a4cb6e7bb5afad182e1.bindTooltip(
+                `<div>
+                     Macao, Concelho de Macau: $84,097
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83896651ae964ffabb5a00df4a4f8ef6 = L.marker(
+                [59.9133301, 10.7389701],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_83896651ae964ffabb5a00df4a4f8ef6.bindTooltip(
+                `<div>
+                     Norway, Oslo: $74,986
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c23ab81198c24ad7a42e89882a12438f = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_c23ab81198c24ad7a42e89882a12438f.bindTooltip(
+                `<div>
+                     United States, Washington, D.C.: $65,134
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59f5f6eff007424b9cbf340bb817c546 = L.marker(
+                [64.145981, -21.9422367],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_59f5f6eff007424b9cbf340bb817c546.bindTooltip(
+                `<div>
+                     Iceland, Reykjavík: $71,345
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b0c34a7b4ef499e85688ebf04304674 = L.marker(
+                [55.6867243, 12.5700724],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_3b0c34a7b4ef499e85688ebf04304674.bindTooltip(
+                `<div>
+                     Denmark, Copenhagen: $60,657
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_196b26f70eca4eef98b3619fa022e3a1 = L.marker(
+                [1.2904753, 103.8520359],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_196b26f70eca4eef98b3619fa022e3a1.bindTooltip(
+                `<div>
+                     Singapore, Singapore: $64,103
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4948042d35b4ac1bd60bace3d58f8e0 = L.marker(
+                [25.2856329, 51.5264162],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_b4948042d35b4ac1bd60bace3d58f8e0.bindTooltip(
+                `<div>
+                     Qatar, Doha: $64,782
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bd379b7ed4343609823e11978a6e98f = L.marker(
+                [-35.2975906, 149.1012676],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_2bd379b7ed4343609823e11978a6e98f.bindTooltip(
+                `<div>
+                     Australia, Canberra: $54,763
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd8e01b73ffd4d7ea9984672377a96bd = L.marker(
+                [59.3251172, 18.0710935],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_bd8e01b73ffd4d7ea9984672377a96bd.bindTooltip(
+                `<div>
+                     Sweden, Stockholm: $52,896
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f18310171e240f89b4d1bc0601a5746 = L.marker(
+                [52.3727598, 4.8936041],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_3f18310171e240f89b4d1bc0601a5746.bindTooltip(
+                `<div>
+                     Netherlands, Amsterdam: $53,053
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b80e3781dce4bae9c6ac5a19c01986c = L.marker(
+                [64.175029, -51.7355386],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4b80e3781dce4bae9c6ac5a19c01986c.bindTooltip(
+                `<div>
+                     Greenland, Nuuk: $53,353
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_039932ce1c494107b670b93ca11da2ab = L.marker(
+                [60.1674881, 24.9427473],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_039932ce1c494107b670b93ca11da2ab.bindTooltip(
+                `<div>
+                     Finland, Helsinki: $48,678
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2bbe7ce798a4d8e85eb4c080599bafe = L.marker(
+                [48.2083537, 16.3725042],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_b2bbe7ce798a4d8e85eb4c080599bafe.bindTooltip(
+                `<div>
+                     Austria, Vienna: $49,701
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83cde77c208e4d5c917c79ac9614ddb0 = L.marker(
+                [43.9363996, 12.4466991],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_83cde77c208e4d5c917c79ac9614ddb0.bindTooltip(
+                `<div>
+                     San Marino, San Marino: $47,313
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf21463e3d6f40d89a2c237d4375eb11 = L.marker(
+                [18.4024395, -64.5661642],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_cf21463e3d6f40d89a2c237d4375eb11.bindTooltip(
+                `<div>
+                     British Virgin Islands, Charlotte Amalie: $48,511
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a373494e214453bb083f2b14a186e1a = L.marker(
+                [22.2793278, 114.1628131],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_0a373494e214453bb083f2b14a186e1a.bindTooltip(
+                `<div>
+                     Hong Kong, Hong Kong: $49,180
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17669cbb9656414db25ff4b7770fe684 = L.marker(
+                [52.5170365, 13.3888599],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_17669cbb9656414db25ff4b7770fe684.bindTooltip(
+                `<div>
+                     Germany, Berlin: $46,232
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f31ef9fe9db342fd8da37e97a2ebe68e = L.marker(
+                [50.8436709, 4.3674366933879565],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f31ef9fe9db342fd8da37e97a2ebe68e.bindTooltip(
+                `<div>
+                     Belgium, Brussels: $46,198
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e873b5af5c04932adf90ac15c843b0f = L.marker(
+                [45.4121213, -75.6902639],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_9e873b5af5c04932adf90ac15c843b0f.bindTooltip(
+                `<div>
+                     Canada, Ottawa: $46,550
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5631fdffe0f4eddb050dd2cb5ad034f = L.marker(
+                [31.79592425, 35.21198075969497],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_a5631fdffe0f4eddb050dd2cb5ad034f.bindTooltip(
+                `<div>
+                     Israel, Jerusalem: $46,376
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f447d23c511f42768fe7303313e1d782 = L.marker(
+                [-41.2887953, 174.7772114],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f447d23c511f42768fe7303313e1d782.bindTooltip(
+                `<div>
+                     New Zealand, Wellington: $43,264
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49788d850bd34930a68010b9c7285a6f = L.marker(
+                [51.5073219, -0.1276474],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_49788d850bd34930a68010b9c7285a6f.bindTooltip(
+                `<div>
+                     United Kingdom, London: $41,855
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c08d00a6457848008d8fc494586ad050 = L.marker(
+                [48.8566969, 2.3514616],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_c08d00a6457848008d8fc494586ad050.bindTooltip(
+                `<div>
+                     France, Paris: $40,319
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_081f7a6b1c444310b26374a4b66b13e7 = L.marker(
+                [35.6828387, 139.7594549],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_081f7a6b1c444310b26374a4b66b13e7.bindTooltip(
+                `<div>
+                     Japan, Tokyo: $40,063
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ac8cb5abb2a45f6a0fc3b68a16546b8 = L.marker(
+                [42.5069391, 1.5212467],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4ac8cb5abb2a45f6a0fc3b68a16546b8.bindTooltip(
+                `<div>
+                     Andorra, Andorra la Vella: $40,887
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6187857c12744a02a635fd1c4c8086f2 = L.marker(
+                [24.4538352, 54.3774014],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_6187857c12744a02a635fd1c4c8086f2.bindTooltip(
+                `<div>
+                     United Arab Emirates, Abu Dhabi: $43,103
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69d8a0eeda1a4c0b8510322a88cc7d4c = L.marker(
+                [-20.454288599999998, 164.55660583077983],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_69d8a0eeda1a4c0b8510322a88cc7d4c.bindTooltip(
+                `<div>
+                     New Caledonia, Nouméa: $34,942
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31d1e2258dfd4c749c1bcca50acd5ba4 = L.marker(
+                [18.2214149, -66.41328179513847],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_31d1e2258dfd4c749c1bcca50acd5ba4.bindTooltip(
+                `<div>
+                     Puerto Rico, San Juan: $35,791
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec65d225222744f28caec836130f5d13 = L.marker(
+                [41.8933203, 12.4829321],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ec65d225222744f28caec836130f5d13.bindTooltip(
+                `<div>
+                     Italy, Rome: $33,090
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35625e33f5e0423bacf930b2b0d86ade = L.marker(
+                [37.5666791, 126.9782914],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_35625e33f5e0423bacf930b2b0d86ade.bindTooltip(
+                `<div>
+                     South Korea, Seoul: $32,143
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8abf0e3289574499a82522d07998f74f = L.marker(
+                [4.8895453, 114.9417574],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_8abf0e3289574499a82522d07998f74f.bindTooltip(
+                `<div>
+                     Brunei, Bandar Seri Begawan: $31,086
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00258557e707402b9926e9bb26f0831f = L.marker(
+                [25.0375198, 121.5636796],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_00258557e707402b9926e9bb26f0831f.bindTooltip(
+                `<div>
+                     Taiwan, Taipei: $nan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f84a8fcca4144897ae0a114165dea2e7 = L.marker(
+                [25.0783456, -77.3383331],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f84a8fcca4144897ae0a114165dea2e7.bindTooltip(
+                `<div>
+                     The Bahamas, Nassau: $34,864
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8044b70704464a3b8dcf96f339a03f1c = L.marker(
+                [35.8989818, 14.5136759],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_8044b70704464a3b8dcf96f339a03f1c.bindTooltip(
+                `<div>
+                     Malta, Valletta: $33,752
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c0f187876034ddd807950e0633a5bc9 = L.marker(
+                [29.3797091, 47.9735629],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_8c0f187876034ddd807950e0633a5bc9.bindTooltip(
+                `<div>
+                     Kuwait, Kuwait City: $31,999
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7958e3fbbf04d47b01f3681ad71eda1 = L.marker(
+                [40.4167047, -3.7035825],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f7958e3fbbf04d47b01f3681ad71eda1.bindTooltip(
+                `<div>
+                     Spain, Madrid: $29,816
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4e8349651d94b2a902364b479bc6fa2 = L.marker(
+                [52.7736657, 4.7448352],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_b4e8349651d94b2a902364b479bc6fa2.bindTooltip(
+                `<div>
+                     Sint Maarten, Philipsburg: $nan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f023798239243bbb9757388af1716c8 = L.marker(
+                [35.1739302, 33.364726],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7f023798239243bbb9757388af1716c8.bindTooltip(
+                `<div>
+                     Cyprus, Nicosia: $28,285
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d297b003614452c8303264d45819c6f = L.marker(
+                [12.4902998, -69.9609842],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_3d297b003614452c8303264d45819c6f.bindTooltip(
+                `<div>
+                     Aruba, Oranjestad: $30,975
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_353b504c985543acafa490b6a24e46af = L.marker(
+                [21.4607723, -71.1399956],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_353b504c985543acafa490b6a24e46af.bindTooltip(
+                `<div>
+                     Turks and Caicos Islands, Cockburn Town: $31,353
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c54999f1d95549389b27cc37bc720ba1 = L.marker(
+                [46.0499803, 14.5068602],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_c54999f1d95549389b27cc37bc720ba1.bindTooltip(
+                `<div>
+                     Slovenia, Ljubljana: $26,062
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a485cd6f0be4604b33208e5dc3902ae = L.marker(
+                [18.2145861, -63.0517759],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7a485cd6f0be4604b33208e5dc3902ae.bindTooltip(
+                `<div>
+                     Anguilla, The Valley: $25,529
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2619e62c4f694da8950094d8f883d334 = L.marker(
+                [59.4372155, 24.7453688],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_2619e62c4f694da8950094d8f883d334.bindTooltip(
+                `<div>
+                     Estonia, Tallinn: $23,740
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70cce7b44701455981e5a3c1db97de27 = L.marker(
+                [50.0596288, 14.446459273258009],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_70cce7b44701455981e5a3c1db97de27.bindTooltip(
+                `<div>
+                     Czechia, Prague: $23,452
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53b4598783d842b28ad7f6489822e3e1 = L.marker(
+                [26.2235041, 50.5822436],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_53b4598783d842b28ad7f6489822e3e1.bindTooltip(
+                `<div>
+                     Bahrain, Manama: $23,504
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0b540bfceab440db85672c659ac150f = L.marker(
+                [38.7077507, -9.1365919],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_d0b540bfceab440db85672c659ac150f.bindTooltip(
+                `<div>
+                     Portugal, Lisbon: $23,350
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_429ade602fe6436c8788c54404a2663b = L.marker(
+                [24.638916, 46.7160104],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_429ade602fe6436c8788c54404a2663b.bindTooltip(
+                `<div>
+                     Saudi Arabia, Riyadh: $23,140
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18613ad0b688481ab289c40577e37257 = L.marker(
+                [-21.2074736, -159.7708145],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_18613ad0b688481ab289c40577e37257.bindTooltip(
+                `<div>
+                     Cook Islands, Avarua: $21,603
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a52014ba9aee47b5b645ba081052f991 = L.marker(
+                [54.6870458, 25.2829111],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_a52014ba9aee47b5b645ba081052f991.bindTooltip(
+                `<div>
+                     Lithuania, Vilnius: $19,795
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_098b2716803b44d29323c07c361fca64 = L.marker(
+                [-16.03442485, -146.0490931059517],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_098b2716803b44d29323c07c361fca64.bindTooltip(
+                `<div>
+                     French Polynesia, Papeete: $21,567
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20358f93ac874569adc321523d9775e2 = L.marker(
+                [48.1516988, 17.1093063],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_20358f93ac874569adc321523d9775e2.bindTooltip(
+                `<div>
+                     Slovakia, Bratislava: $19,256
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aed314196f504b3ba283d40fa0ff6fcd = L.marker(
+                [37.9839412, 23.7283052],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_aed314196f504b3ba283d40fa0ff6fcd.bindTooltip(
+                `<div>
+                     Greece, Athens: $19,604
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7dc7e46b0c15430393f277cef8566d4e = L.marker(
+                [17.2960919, -62.722301],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7dc7e46b0c15430393f277cef8566d4e.bindTooltip(
+                `<div>
+                     Saint Kitts and Nevis, Basseterre: $19,896
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fb12b2642c143cca3b757234eefe173 = L.marker(
+                [56.9493977, 24.1051846],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4fb12b2642c143cca3b757234eefe173.bindTooltip(
+                `<div>
+                     Latvia, Riga: $17,885
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94e43a27e72146bf8abed97cf5b624d0 = L.marker(
+                [12.1845, -68.9640875031406],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_94e43a27e72146bf8abed97cf5b624d0.bindTooltip(
+                `<div>
+                     Curacao, Willemstad: $18,980
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dccae59ae76499f997ba1d70486b3ab = L.marker(
+                [47.4979937, 19.0403594],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_6dccae59ae76499f997ba1d70486b3ab.bindTooltip(
+                `<div>
+                     Hungary, Budapest: $16,879
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e7a8d1fae99443f86f25e9a40fd4557 = L.marker(
+                [13.0977832, -59.6184184],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7e7a8d1fae99443f86f25e9a40fd4557.bindTooltip(
+                `<div>
+                     Barbados, Bridgetown: $18,149
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6af0cfa3bead414caf01bb32e20c5e55 = L.marker(
+                [52.2319581, 21.0067249],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_6af0cfa3bead414caf01bb32e20c5e55.bindTooltip(
+                `<div>
+                     Poland, Warsaw: $15,727
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08792ef8745845e5933bae5876171f83 = L.marker(
+                [23.5882019, 58.3829448],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_08792ef8745845e5933bae5876171f83.bindTooltip(
+                `<div>
+                     Oman, Muscat: $15,343
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32a4184ae96a4befbd0b4d6a3bb1f993 = L.marker(
+                [45.8131847, 15.9771774],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_32a4184ae96a4befbd0b4d6a3bb1f993.bindTooltip(
+                `<div>
+                     Croatia, Zagreb: $14,627
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83e05e69ad9e4eee9c8b92fa2a9ab716 = L.marker(
+                [10.6572678, -61.5180173],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_83e05e69ad9e4eee9c8b92fa2a9ab716.bindTooltip(
+                `<div>
+                     Trinidad and Tobago, Port-of-Spain: $16,637
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33cce5956066410393ca009483c1d3d8 = L.marker(
+                [-34.9058916, -56.1913095],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_33cce5956066410393ca009483c1d3d8.bindTooltip(
+                `<div>
+                     Uruguay, Montevideo: $16,190
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a36aa4141dd4ba7ac23e1c9a8729bae = L.marker(
+                [17.1184569, -61.8448509],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_9a36aa4141dd4ba7ac23e1c9a8729bae.bindTooltip(
+                `<div>
+                     Antigua and Barbuda, Saint John’s: $17,113
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e42611379a5489fbc1c2e906596a6fa = L.marker(
+                [-33.4377756, -70.6504502],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_8e42611379a5489fbc1c2e906596a6fa.bindTooltip(
+                `<div>
+                     Chile, Santiago: $14,896
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_280bc6d9f19944a294fce285c145094b = L.marker(
+                [5.3783537, 132.9102573],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_280bc6d9f19944a294fce285c145094b.bindTooltip(
+                `<div>
+                     Palau, nan: $15,572
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_263c9589b2734f629ebfd0d074ac225c = L.marker(
+                [44.4361414, 26.1027202],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_263c9589b2734f629ebfd0d074ac225c.bindTooltip(
+                `<div>
+                     Romania, Bucharest: $12,914
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_795f11d28869469389257727f6637529 = L.marker(
+                [8.9714493, -79.5341802],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_795f11d28869469389257727f6637529.bindTooltip(
+                `<div>
+                     Panama, Panama City: $15,728
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_890a1175b6e346afb2af5bb6e1b96573 = L.marker(
+                [16.7890601, -62.208731],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_890a1175b6e346afb2af5bb6e1b96573.bindTooltip(
+                `<div>
+                     Montserrat, Brades: $13,487
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05a7496101e24ea09445061c083c032c = L.marker(
+                [39.906217, 116.3912757],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_05a7496101e24ea09445061c083c032c.bindTooltip(
+                `<div>
+                     China, Beijing: $10,004
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2574a61b89e43e5be62c1917df445ee = L.marker(
+                [9.9325427, -84.0795782],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_e2574a61b89e43e5be62c1917df445ee.bindTooltip(
+                `<div>
+                     Costa Rica, San José: $12,238
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74ca4184234d4e6b925c7c60de17ea95 = L.marker(
+                [55.7504461, 37.6174943],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_74ca4184234d4e6b925c7c60de17ea95.bindTooltip(
+                `<div>
+                     Russia, Moscow: $11,606
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ad495cfbb6b4eb183b964e292a28d70 = L.marker(
+                [3.1516964, 101.6942371],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_9ad495cfbb6b4eb183b964e292a28d70.bindTooltip(
+                `<div>
+                     Malaysia, Kuala Lumpur: $11,414
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bbbe40b3bda40b78a3efb7b4187a903 = L.marker(
+                [-14.289304, -170.692511],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4bbbe40b3bda40b78a3efb7b4187a903.bindTooltip(
+                `<div>
+                     American Samoa, Apia: $nan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_179c1774edeb4e59b37c39e16bce910e = L.marker(
+                [42.6978634, 23.3221789],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_179c1774edeb4e59b37c39e16bce910e.bindTooltip(
+                `<div>
+                     Bulgaria, Sofia: $9,703
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a31f93684d2d484fbf4f74231ba77d22 = L.marker(
+                [-0.5471014, 166.9164002],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_a31f93684d2d484fbf4f74231ba77d22.bindTooltip(
+                `<div>
+                     Nauru, Yaren: $12,351
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_410dbb76d9bd485f808a924940909640 = L.marker(
+                [4.1779879, 73.5107387],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_410dbb76d9bd485f808a924940909640.bindTooltip(
+                `<div>
+                     Maldives, Malé: $10,626
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7092c512eb6a46a0a8e0f3cc313b0713 = L.marker(
+                [51.1282205, 71.4306682],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7092c512eb6a46a0a8e0f3cc313b0713.bindTooltip(
+                `<div>
+                     Kazakhstan, Nursultan: $9,793
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d76ac753bf5349d69bc4af14301fe31f = L.marker(
+                [14.0095966, -60.9902359],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_d76ac753bf5349d69bc4af14301fe31f.bindTooltip(
+                `<div>
+                     Saint Lucia, Castries: $11,611
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2d9c39979ff4c0eb5c1bc35d614caad = L.marker(
+                [-4.6232085, 55.452359],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_e2d9c39979ff4c0eb5c1bc35d614caad.bindTooltip(
+                `<div>
+                     Seychelles, Victoria: $17,382
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13cf0a00fc3a48e1b972d206c16ac90a = L.marker(
+                [-20.1637281, 57.5045331],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_13cf0a00fc3a48e1b972d206c16ac90a.bindTooltip(
+                `<div>
+                     Mauritius, Port Louis: $11,169
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_774eb0d896954865887f7d676ba4319a = L.marker(
+                [39.9207893, 32.8540412],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_774eb0d896954865887f7d676ba4319a.bindTooltip(
+                `<div>
+                     Turkey, Ankara: $9,127
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6af7fe665f254f4387903c37e8b4ae0e = L.marker(
+                [23.135305, -82.3589631],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_6af7fe665f254f4387903c37e8b4ae0e.bindTooltip(
+                `<div>
+                     Cuba, Havana: $9,296
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60c2df9ba24047449f13738ac413a071 = L.marker(
+                [19.4326296, -99.1331785],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_60c2df9ba24047449f13738ac413a071.bindTooltip(
+                `<div>
+                     Mexico, Mexico City: $9,849
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31d2f2645b6e4922ba744aeddd31ebf2 = L.marker(
+                [6.8137426, -58.1624465],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_31d2f2645b6e4922ba744aeddd31ebf2.bindTooltip(
+                `<div>
+                     Guyana, Georgetown: $6,610
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b6db6ccaff0426d9b9e9a679ecfc5bf = L.marker(
+                [12.0535331, -61.751805],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4b6db6ccaff0426d9b9e9a679ecfc5bf.bindTooltip(
+                `<div>
+                     Grenada, Saint George's: $10,818
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f1cde55945b436b8e143eced320ce1b = L.marker(
+                [-34.6075682, -58.4370894],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7f1cde55945b436b8e143eced320ce1b.bindTooltip(
+                `<div>
+                     Argentina, Buenos Aires: $10,041
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6c941f54fb449c3b4267a5eab8362e3 = L.marker(
+                [42.4415238, 19.2621081],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_b6c941f54fb449c3b4267a5eab8362e3.bindTooltip(
+                `<div>
+                     Montenegro, Podgorica: $8,825
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5788cc13fe1a40dd87a8ddee3918abd2 = L.marker(
+                [37.9404648, 58.3823487],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_5788cc13fe1a40dd87a8ddee3918abd2.bindTooltip(
+                `<div>
+                     Turkmenistan, Ashgabat: $8,124
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa54b70d3de94d5083fc4cc14c02d5f9 = L.marker(
+                [44.8178131, 20.4568974],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_fa54b70d3de94d5083fc4cc14c02d5f9.bindTooltip(
+                `<div>
+                     Serbia, Belgrade: $7,359
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_710e3f0e1f9f48328e97fff267dc8984 = L.marker(
+                [0.390002, 9.454001],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_710e3f0e1f9f48328e97fff267dc8984.bindTooltip(
+                `<div>
+                     Gabon, Libreville: $7,773
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e694ab00ac34b1ab701fdf65b8f8eb2 = L.marker(
+                [1.613172, 10.5170357],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7e694ab00ac34b1ab701fdf65b8f8eb2.bindTooltip(
+                `<div>
+                     Equatorial Guinea, Conakry: $8,130
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28c963073d5f4bb6a835a54f952b8d19 = L.marker(
+                [35.6892523, 51.3896004],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_28c963073d5f4bb6a835a54f952b8d19.bindTooltip(
+                `<div>
+                     Iran, Tehran: $7,282
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b87bd5959f6a478ab340aace712c2152 = L.marker(
+                [18.4801972, -69.942111],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_b87bd5959f6a478ab340aace712c2152.bindTooltip(
+                `<div>
+                     Dominican Republic, Santo Domingo: $8,282
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4669430fcc0546769620b051ad2439c1 = L.marker(
+                [-24.6581357, 25.9088474],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4669430fcc0546769620b051ad2439c1.bindTooltip(
+                `<div>
+                     Botswana, Gaborone: $7,961
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f34f0c9ab72346e4b4d43ee58f2cb7d2 = L.marker(
+                [13.7544238, 100.4930399],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f34f0c9ab72346e4b4d43ee58f2cb7d2.bindTooltip(
+                `<div>
+                     Thailand, Bangkok: $7,785
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_086e0a706c764cc58a8d3dec4fdb1cff = L.marker(
+                [13.1561864, -61.2279621],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_086e0a706c764cc58a8d3dec4fdb1cff.bindTooltip(
+                `<div>
+                     Saint Vincent and the Grenadines, Kingstown: $7,464
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7181498479ea4f0db551cefacb18b2d3 = L.marker(
+                [-15.7934036, -47.8823172],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7181498479ea4f0db551cefacb18b2d3.bindTooltip(
+                `<div>
+                     Brazil, Brasília: $8,755
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d6ff085109a40359164499befdc4212 = L.marker(
+                [15.2991923, -61.3872868],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_8d6ff085109a40359164499befdc4212.bindTooltip(
+                `<div>
+                     Dominica, Roseau: $8,111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f95ea037f964abc992cf90c28136e40 = L.marker(
+                [43.8519774, 18.3866868],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_1f95ea037f964abc992cf90c28136e40.bindTooltip(
+                `<div>
+                     Bosnia and Herzegovina, Sarajevo: $6,109
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec892eb6c0bb499688409a57373bb66e = L.marker(
+                [-12.0621065, -77.0365256],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ec892eb6c0bb499688409a57373bb66e.bindTooltip(
+                `<div>
+                     Peru, Lima: $6,978
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bd893e599f74e4a949fbdfb050ebe24 = L.marker(
+                [41.9960924, 21.4316495],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4bd893e599f74e4a949fbdfb050ebe24.bindTooltip(
+                `<div>
+                     North Macedonia, Skopje: $6,093
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49f1933b56c4444280c7485e9684d96c = L.marker(
+                [53.902334, 27.5618791],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_49f1933b56c4444280c7485e9684d96c.bindTooltip(
+                `<div>
+                     Belarus, Minsk: $6,674
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e56f6de9c904fa6b68be565bd290caf = L.marker(
+                [41.3305141, 19.825562857582966],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_6e56f6de9c904fa6b68be565bd290caf.bindTooltip(
+                `<div>
+                     Albania, Tirana: $5,303
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87ec5ed9198844e8ae69c3731d44aacd = L.marker(
+                [4.6533326, -74.083652],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_87ec5ed9198844e8ae69c3731d44aacd.bindTooltip(
+                `<div>
+                     Colombia, Bogotá: $6,432
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f987ed5e66747c3b5c28f9b3928cb18 = L.marker(
+                [-0.2201641, -78.5123274],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_1f987ed5e66747c3b5c28f9b3928cb18.bindTooltip(
+                `<div>
+                     Ecuador, Quito: $6,184
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ba4eed04bd44adbb9cfbf25bb835f80 = L.marker(
+                [-25.7459374, 28.1879444],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_2ba4eed04bd44adbb9cfbf25bb835f80.bindTooltip(
+                `<div>
+                     South Africa, Pretoria: $6,001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_678d276f165e4eaa970bbfefe569710f = L.marker(
+                [17.9712148, -76.7928128],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_678d276f165e4eaa970bbfefe569710f.bindTooltip(
+                `<div>
+                     Jamaica, Kingston: $5,369
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2abf0c5d4265419d916158eba26f7e74 = L.marker(
+                [-25.2800459, -57.6343814],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_2abf0c5d4265419d916158eba26f7e74.bindTooltip(
+                `<div>
+                     Paraguay, Asunción: $5,406
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d76be6271c234238acd9f0f5585d9a2a = L.marker(
+                [-8.5199633, 179.1982548],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_d76be6271c234238acd9f0f5585d9a2a.bindTooltip(
+                `<div>
+                     Tuvalu, Funafuti: $4,036
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc87a78e188d4220be012989193d8513 = L.marker(
+                [-21.1343401, -175.2018085],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_fc87a78e188d4220be012989193d8513.bindTooltip(
+                `<div>
+                     Tonga, Nuku‘alofa: $4,865
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63c8fd439a2a4547ad929021e5181921 = L.marker(
+                [-18.1415884, 178.4421662],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_63c8fd439a2a4547ad929021e5181921.bindTooltip(
+                `<div>
+                     Fiji, Suva: $6,185
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17d803fe33a543728d46ec32467f335e = L.marker(
+                [40.3754434, 49.8326748],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_17d803fe33a543728d46ec32467f335e.bindTooltip(
+                `<div>
+                     Azerbaijan, Baku: $4,782
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_985695c2103744d3b4310fccefd1a621 = L.marker(
+                [42.6638771, 21.1640849],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_985695c2103744d3b4310fccefd1a621.bindTooltip(
+                `<div>
+                     Kosovo, Pristina: $4,473
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e3156a91a9b47a1af5cecf788d22e93 = L.marker(
+                [47.0245117, 28.8322923],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7e3156a91a9b47a1af5cecf788d22e93.bindTooltip(
+                `<div>
+                     Moldova, Chisinau: $2,957
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_466bd6fc102e49f68762a584ef23aa4d = L.marker(
+                [33.3024309, 44.3787992],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_466bd6fc102e49f68762a584ef23aa4d.bindTooltip(
+                `<div>
+                     Iraq, Baghdad: $5,730
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94a06f485cf544f491081982f2731120 = L.marker(
+                [14.6222328, -90.5185188],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_94a06f485cf544f491081982f2731120.bindTooltip(
+                `<div>
+                     Guatemala, Guatemala City: $4,363
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcb21ca9513849ac8c9f1cdcacf9a6da = L.marker(
+                [-22.5743922, 17.0790688],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_dcb21ca9513849ac8c9f1cdcacf9a6da.bindTooltip(
+                `<div>
+                     Namibia, Windhoek: $4,957
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09a7ccbd5cca4094a4d89a83a72987fb = L.marker(
+                [41.6934591, 44.8014495],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_09a7ccbd5cca4094a4d89a83a72987fb.bindTooltip(
+                `<div>
+                     Georgia, Tbilisi: $4,439
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3da5f989c9354870b5de465bdd6033da = L.marker(
+                [31.9515694, 35.9239625],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_3da5f989c9354870b5de465bdd6033da.bindTooltip(
+                `<div>
+                     Jordan, Amman: $4,405
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e32efdac1ea4fa18d5e829e80799a7f = L.marker(
+                [-6.1753942, 106.827183],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_1e32efdac1ea4fa18d5e829e80799a7f.bindTooltip(
+                `<div>
+                     Indonesia, Jakarta: $4,136
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86c40a8e789b4b82adf0c93132a19e61 = L.marker(
+                [7.0909924, 171.3816354],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_86c40a8e789b4b82adf0c93132a19e61.bindTooltip(
+                `<div>
+                     Marshall Islands, Majuro: $4,038
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbbe90b60f3f4960a2f0dc8ec4eaf848 = L.marker(
+                [47.9184676, 106.9177016],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_fbbe90b60f3f4960a2f0dc8ec4eaf848.bindTooltip(
+                `<div>
+                     Mongolia, Ulaanbaatar: $4,295
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56849f9970fe4c76b09eed203058cef2 = L.marker(
+                [40.1776121, 44.5125849],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_56849f9970fe4c76b09eed203058cef2.bindTooltip(
+                `<div>
+                     Armenia, Yerevan: $4,623
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27606b7335b241bd8902b5f655799e98 = L.marker(
+                [13.6989939, -89.1914249],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_27606b7335b241bd8902b5f655799e98.bindTooltip(
+                `<div>
+                     El Salvador, San Salvador: $4,187
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8611d3b0e7854ef5bfee802d6e8b2546 = L.marker(
+                [5.8216091, -55.1770432],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_8611d3b0e7854ef5bfee802d6e8b2546.bindTooltip(
+                `<div>
+                     Suriname, Paramaribo: $6,360
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fb809e5c2ea4004a0f32cb37e6c8f4f = L.marker(
+                [50.4500336, 30.5241361],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_9fb809e5c2ea4004a0f32cb37e6c8f4f.bindTooltip(
+                `<div>
+                     Ukraine, Kiev: $3,496
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be1c8e89313a44cca6e4f7df057bef17 = L.marker(
+                [17.250199, -88.770018],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_be1c8e89313a44cca6e4f7df057bef17.bindTooltip(
+                `<div>
+                     Belize, Belmopan: $4,884
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85a9d07aa2104d3a99862a316d1b6bd4 = L.marker(
+                [30.0443879, 31.2357257],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_85a9d07aa2104d3a99862a316d1b6bd4.bindTooltip(
+                `<div>
+                     Egypt, Cairo: $3,161
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d27077c2bf14a8aae827ce79a41f1fa = L.marker(
+                [6.9349969, 79.8538463],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_2d27077c2bf14a8aae827ce79a41f1fa.bindTooltip(
+                `<div>
+                     Sri Lanka, Colombo: $3,940
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b34a80b17ea74ec4a04e312f1232cd97 = L.marker(
+                [8.6065, 152.00846930625],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_b34a80b17ea74ec4a04e312f1232cd97.bindTooltip(
+                `<div>
+                     Federated States of Micronesia, nan: $3,640
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad1e4d8de08044c3a542d5e36d64aa4d = L.marker(
+                [-26.325745, 31.144663],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ad1e4d8de08044c3a542d5e36d64aa4d.bindTooltip(
+                `<div>
+                     Eswatini, Mbabane: $4,002
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce78b834b34c468f8511340f6050ab10 = L.marker(
+                [36.8002068, 10.1857757],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ce78b834b34c468f8511340f6050ab10.bindTooltip(
+                `<div>
+                     Tunisia, Tunis: $3,318
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_210aceef221744218b3f4bc32adc0a85 = L.marker(
+                [-13.8343691, -171.7692793],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_210aceef221744218b3f4bc32adc0a85.bindTooltip(
+                `<div>
+                     Samoa, Apia: $4,285
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f203a593e894f8fb3b499cd81b0527f = L.marker(
+                [14.5907332, 120.9809674],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_6f203a593e894f8fb3b499cd81b0527f.bindTooltip(
+                `<div>
+                     Philippines, Manila: $3,324
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f906750dba24465949281fe84582d1e = L.marker(
+                [-19.0477251, -65.2594306],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_5f906750dba24465949281fe84582d1e.bindTooltip(
+                `<div>
+                     Bolivia, Sucre: $3,552
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f01f268aecdc421aa7e312b6151dbe53 = L.marker(
+                [32.896672, 13.1777923],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f01f268aecdc421aa7e312b6151dbe53.bindTooltip(
+                `<div>
+                     Libya, Tripoli: $4,810
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69a4f180944c4e7794d30a1d44f2bade = L.marker(
+                [21.0294498, 105.8544441],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_69a4f180944c4e7794d30a1d44f2bade.bindTooltip(
+                `<div>
+                     Vietnam, Hanoi: $2,715
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_777d6963e04b43c8adf9ce055246ff83 = L.marker(
+                [14.9162811, -23.5095095],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_777d6963e04b43c8adf9ce055246ff83.bindTooltip(
+                `<div>
+                     Cape Verde, Praia: $3,604
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30ead2316a464b969265240c5a50dfc7 = L.marker(
+                [34.022405, -6.834543],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_30ead2316a464b969265240c5a50dfc7.bindTooltip(
+                `<div>
+                     Morocco, Rabat: $3,282
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54627c00f8ef457abf5982d9ab2a72b7 = L.marker(
+                [36.7753606, 3.0601882],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_54627c00f8ef457abf5982d9ab2a72b7.bindTooltip(
+                `<div>
+                     Algeria, Algiers: $3,976
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c5d713f18344815ba74dd6f17da5948 = L.marker(
+                [27.4713546, 89.6336729],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4c5d713f18344815ba74dd6f17da5948.bindTooltip(
+                `<div>
+                     Bhutan, Thimphu: $3,361
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d87c158b849407bb5c08207aa7cb525 = L.marker(
+                [11.5936903, 43.1472724],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_5d87c158b849407bb5c08207aa7cb525.bindTooltip(
+                `<div>
+                     Djibouti, Djibouti: $3,252
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e784e93b04fe443bae72aeb5e3960e89 = L.marker(
+                [31.94696655, 35.27386547291496],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_e784e93b04fe443bae72aeb5e3960e89.bindTooltip(
+                `<div>
+                     State of Palestine, Ramallah: $3,424
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4757abb041d24585a2bd03288d1dab02 = L.marker(
+                [-17.7414972, 168.3150163],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4757abb041d24585a2bd03288d1dab02.bindTooltip(
+                `<div>
+                     Vanuatu, Port-Vila: $3,023
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf407d9a045142f69e2c256f28f1f6cf = L.marker(
+                [33.5130695, 36.3095814],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_cf407d9a045142f69e2c256f28f1f6cf.bindTooltip(
+                `<div>
+                     Syria, Damascus: $1,194
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f0d74a61e5d411ea60a174d342636f5 = L.marker(
+                [33.8959203, 35.47843],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_3f0d74a61e5d411ea60a174d342636f5.bindTooltip(
+                `<div>
+                     Lebanon, Beirut: $7,784
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e9b42d7448d4c84ad8d637bf4022b04 = L.marker(
+                [17.9640988, 102.6133707],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_2e9b42d7448d4c84ad8d637bf4022b04.bindTooltip(
+                `<div>
+                     Laos, Vientiane: $2,625
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68b8a8486d4c41e69722c41b3dee3643 = L.marker(
+                [-9.4743301, 147.1599504],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_68b8a8486d4c41e69722c41b3dee3643.bindTooltip(
+                `<div>
+                     Papua New Guinea, Port Moresby: $2,845
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3f5f904c0f5469dab136a2b467d07fa = L.marker(
+                [14.1056861, -87.204676],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f3f5f904c0f5469dab136a2b467d07fa.bindTooltip(
+                `<div>
+                     Honduras, Tegucigalpa: $2,575
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c6fcc3595e54c28a2d29689984ceefd = L.marker(
+                [6.809107, -5.273263],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_2c6fcc3595e54c28a2d29689984ceefd.bindTooltip(
+                `<div>
+                     Ivory Coast, Yamoussoukro: $2,276
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d62d1b0a761b441997c07b03f325cb3d = L.marker(
+                [-4.2694407, 15.2712256],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_d62d1b0a761b441997c07b03f325cb3d.bindTooltip(
+                `<div>
+                     Republic of the Congo, Brazzaville: $2,304
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ccbd873820d4b459eac8bc0adcb3f3b = L.marker(
+                [-9.4310769, 159.9552552],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7ccbd873820d4b459eac8bc0adcb3f3b.bindTooltip(
+                `<div>
+                     Solomon Islands, Honiara: $1,945
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86ee3273fdaf4e0fa437f0ba048ec88d = L.marker(
+                [9.0643305, 7.4892974],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_86ee3273fdaf4e0fa437f0ba048ec88d.bindTooltip(
+                `<div>
+                     Nigeria, Abuja: $2,361
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe95f63d69f64f77abf0c931886d282e = L.marker(
+                [5.5571096, -0.2012376],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_fe95f63d69f64f77abf0c931886d282e.bindTooltip(
+                `<div>
+                     Ghana, Accra: $2,203
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24d3a306629642298b581312511b2de9 = L.marker(
+                [28.6138954, 77.2090057],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_24d3a306629642298b581312511b2de9.bindTooltip(
+                `<div>
+                     India, New Delhi: $2,116
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb5bbb5c3bff4e86b98515d9d935bb14 = L.marker(
+                [18.0792379, -15.9780071],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_cb5bbb5c3bff4e86b98515d9d935bb14.bindTooltip(
+                `<div>
+                     Mauritania, Nouakchott: $1,678
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95bd5cbf03b745aba98aedb3e2d10065 = L.marker(
+                [0.3389242, 6.7313031],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_95bd5cbf03b745aba98aedb3e2d10065.bindTooltip(
+                `<div>
+                     Sao Tome and Principe, São Tomé: $1,961
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e4305834def45a1b97b5ed1a4c14ab5 = L.marker(
+                [-1.3031689499999999, 36.826061224105075],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_8e4305834def45a1b97b5ed1a4c14ab5.bindTooltip(
+                `<div>
+                     Kenya, Nairobi: $1,817
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_707f1394fdd84f0c80e5d32e3bf477c8 = L.marker(
+                [23.810651, 90.4126466],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_707f1394fdd84f0c80e5d32e3bf477c8.bindTooltip(
+                `<div>
+                     Bangladesh, Dhaka: $1,846
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_827fbeb8635f46559b34307a61b1de5a = L.marker(
+                [-8.8272699, 13.2439512],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_827fbeb8635f46559b34307a61b1de5a.bindTooltip(
+                `<div>
+                     Angola, Luanda: $2,671
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9244c7709ce341378686ceadf7ab0fe0 = L.marker(
+                [18.547327, -72.3395928],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_9244c7709ce341378686ceadf7ab0fe0.bindTooltip(
+                `<div>
+                     Haiti, Port-au-Prince: $715
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea9b9d3e71734dd2a783f3494eb2327d = L.marker(
+                [-1.2394555500000002, 175.29694553869794],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ea9b9d3e71734dd2a783f3494eb2327d.bindTooltip(
+                `<div>
+                     Kiribati, Tarawa: $1,657
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ec878620300493681258b1612857a86 = L.marker(
+                [12.1459907, -86.2746665],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7ec878620300493681258b1612857a86.bindTooltip(
+                `<div>
+                     Nicaragua, Managua: $1,913
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51184bec90b94530beaf50b35e1b195e = L.marker(
+                [41.3123363, 69.2787079],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_51184bec90b94530beaf50b35e1b195e.bindTooltip(
+                `<div>
+                     Uzbekistan, Tashkent: $1,756
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f56a94c554e9406286a3e1456a820cf3 = L.marker(
+                [11.568271, 104.9224426],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f56a94c554e9406286a3e1456a820cf3.bindTooltip(
+                `<div>
+                     Cambodia, Phnom Penh: $1,644
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abf6d7aff4734130a48175023ebf7c66 = L.marker(
+                [-17.831773, 31.045686],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_abf6d7aff4734130a48175023ebf7c66.bindTooltip(
+                `<div>
+                     Zimbabwe, Harare: $1,464
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccc0cd2d9e3040deae5802da6d11292e = L.marker(
+                [3.8689867, 11.5213344],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ccc0cd2d9e3040deae5802da6d11292e.bindTooltip(
+                `<div>
+                     Cameroon, Yaoundé: $1,534
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_361248f1585f4b349b93ec64a6d8666d = L.marker(
+                [14.693425, -17.447938],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_361248f1585f4b349b93ec64a6d8666d.bindTooltip(
+                `<div>
+                     Senegal, Dakar: $1,452
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca204c911d074c05927f19541687b659 = L.marker(
+                [10.506098, -66.9146017],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ca204c911d074c05927f19541687b659.bindTooltip(
+                `<div>
+                     Venezuela, Caracas: $4,733
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72f71d2286064a2c98841cf3a705f879 = L.marker(
+                [24.1307996, 96.05497139125356],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_72f71d2286064a2c98841cf3a705f879.bindTooltip(
+                `<div>
+                     Myanmar, nan: $1,421
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ee3bbcbac3c4235a5d1696e8c009b86 = L.marker(
+                [-11.6931255, 43.2543044],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_5ee3bbcbac3c4235a5d1696e8c009b86.bindTooltip(
+                `<div>
+                     Comoros, Moroni: $1,370
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_945fe330ea9b405fa544ee88518084a4 = L.marker(
+                [6.4990718, 2.6253361],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_945fe330ea9b405fa544ee88518084a4.bindTooltip(
+                `<div>
+                     Benin, Porto-Novo: $1,220
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34fd8cd23ae24bf9b83634791a2a2683 = L.marker(
+                [-8.5536809, 125.5784093],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_34fd8cd23ae24bf9b83634791a2a2683.bindTooltip(
+                `<div>
+                     East Timor, Dili: $1,561
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62eab34d381f4e0eaf949060584e58d3 = L.marker(
+                [33.6938118, 73.0651511],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_62eab34d381f4e0eaf949060584e58d3.bindTooltip(
+                `<div>
+                     Pakistan, Islamabad: $1,187
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_946f32a655234c81a47f8dd824755f8c = L.marker(
+                [27.708317, 85.3205817],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_946f32a655234c81a47f8dd824755f8c.bindTooltip(
+                `<div>
+                     Nepal, Kathmandu: $1,074
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e22845e1d1ac4e1db0ce2765fa85cc4d = L.marker(
+                [-29.310054, 27.478222],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_e22845e1d1ac4e1db0ce2765fa85cc4d.bindTooltip(
+                `<div>
+                     Lesotho, Maseru: $1,158
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38cd452274b043afacbd736bc0e0a827 = L.marker(
+                [9.5170602, -13.6998434],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_38cd452274b043afacbd736bc0e0a827.bindTooltip(
+                `<div>
+                     Guinea, Conakry: $967
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_103b1c5332054cd283b427a817c37ebc = L.marker(
+                [42.8765615, 74.6070079],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_103b1c5332054cd283b427a817c37ebc.bindTooltip(
+                `<div>
+                     Kyrgyzstan, Bishkek: $1,318
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c18a2e8f12be4b1d92c0a838abb07cb9 = L.marker(
+                [-6.1791181, 35.7468174],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_c18a2e8f12be4b1d92c0a838abb07cb9.bindTooltip(
+                `<div>
+                     Tanzania, Dodoma: $1,084
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42b5d0ea5c1c4d58b30d4ada37d39710 = L.marker(
+                [6.130419, 1.215829],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_42b5d0ea5c1c4d58b30d4ada37d39710.bindTooltip(
+                `<div>
+                     Togo, Lomé: $899
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_761aed5ff4c6414abd166c3bb7c81d06 = L.marker(
+                [12.649319, -8.000337],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_761aed5ff4c6414abd166c3bb7c81d06.bindTooltip(
+                `<div>
+                     Mali, Bamako: $887
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8ee2ce2456b402190f74af7a6f70a3d = L.marker(
+                [-15.4164488, 28.2821535],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_a8ee2ce2456b402190f74af7a6f70a3d.bindTooltip(
+                `<div>
+                     Zambia, Lusaka: $1,292
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19f00f2a7ff44943b33a7afb9b0fea8a = L.marker(
+                [0.3177137, 32.5813539],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_19f00f2a7ff44943b33a7afb9b0fea8a.bindTooltip(
+                `<div>
+                     Uganda, Kampala: $737
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94dee46fedbd41ce96478d978a6b4e76 = L.marker(
+                [9.0107934, 38.7612525],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_94dee46fedbd41ce96478d978a6b4e76.bindTooltip(
+                `<div>
+                     Ethiopia, Addis Ababa: $828
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d2a32cebbfb4dc5aea08add460a869f = L.marker(
+                [11.861324, -15.583055],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_3d2a32cebbfb4dc5aea08add460a869f.bindTooltip(
+                `<div>
+                     Guinea-Bissau, Bissau: $688
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a99c2dbcb0d84a8f9bcf229524d09f40 = L.marker(
+                [12.3681873, -1.5270944],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_a99c2dbcb0d84a8f9bcf229524d09f40.bindTooltip(
+                `<div>
+                     Burkina Faso, Ouagadougou: $787
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ee45154c9cb4a1382859eca590a6485 = L.marker(
+                [13.4410165, -16.56275092072591],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_0ee45154c9cb4a1382859eca590a6485.bindTooltip(
+                `<div>
+                     The Gambia, Banjul: $776
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b306bce74bb24b229e771c6c17cd0f9c = L.marker(
+                [-1.950851, 30.061507],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_b306bce74bb24b229e771c6c17cd0f9c.bindTooltip(
+                `<div>
+                     Rwanda, Kigali: $820
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a50ac0107744e9ead93e100238a8e86 = L.marker(
+                [38.5762709, 68.7863573],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_1a50ac0107744e9ead93e100238a8e86.bindTooltip(
+                `<div>
+                     Tajikistan, Dushanbe: $894
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ff16415c2c49fda79df90d3bc28aaa = L.marker(
+                [15.5929478, 32.5364573],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_c4ff16415c2c49fda79df90d3bc28aaa.bindTooltip(
+                `<div>
+                     Sudan, Khartoum: $815
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_383cd0a952574525b90e205713780f81 = L.marker(
+                [15.3538569, 44.2058841],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_383cd0a952574525b90e205713780f81.bindTooltip(
+                `<div>
+                     Yemen, Sanaa: $855
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9347ef9d3c33443fb443477d6a03ea6b = L.marker(
+                [12.1191543, 15.0502758],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_9347ef9d3c33443fb443477d6a03ea6b.bindTooltip(
+                `<div>
+                     Chad, N'Djamena: $707
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71046a3b5051480d81eba33c347e863e = L.marker(
+                [6.328034, -10.797788],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_71046a3b5051480d81eba33c347e863e.bindTooltip(
+                `<div>
+                     Liberia, Monrovia: $523
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba79a363ace341168afd1ce5c1144d77 = L.marker(
+                [39.0168708, 125.7500257],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_ba79a363ace341168afd1ce5c1144d77.bindTooltip(
+                `<div>
+                     North Korea, Pyongyang: $640
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7c03013622f47c6a906f059d25d4e2f = L.marker(
+                [13.524834, 2.109823],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_d7c03013622f47c6a906f059d25d4e2f.bindTooltip(
+                `<div>
+                     Niger, Niamey: $555
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cc9cb9198b14bc49d551718a1115a75 = L.marker(
+                [15.3389667, 38.9326763],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_7cc9cb9198b14bc49d551718a1115a75.bindTooltip(
+                `<div>
+                     Eritrea, Asmara: $567
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12a058f8a1ea428fb24ecfc935ab0ad9 = L.marker(
+                [34.5260109, 69.1776838],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_12a058f8a1ea428fb24ecfc935ab0ad9.bindTooltip(
+                `<div>
+                     Afghanistan, Kabul: $470
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e2b5b90c2cb4c52b26ebe93a92ab8fc = L.marker(
+                [-2.9814344, 23.8222636],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_0e2b5b90c2cb4c52b26ebe93a92ab8fc.bindTooltip(
+                `<div>
+                     Democratic Republic of the Congo, Brazzaville: $545
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f540cd6cada64165a0dfd8e97f1afad4 = L.marker(
+                [4.3907153, 18.5509126],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_f540cd6cada64165a0dfd8e97f1afad4.bindTooltip(
+                `<div>
+                     Central African Republic, Bangui: $468
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d63ac2896634af499e060e6bc995dc9 = L.marker(
+                [8.479004, -13.26795],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_4d63ac2896634af499e060e6bc995dc9.bindTooltip(
+                `<div>
+                     Sierra Leone, Freetown: $528
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54d686ff5e8f4fed8f66a592620326c4 = L.marker(
+                [-18.9100122, 47.5255809],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_54d686ff5e8f4fed8f66a592620326c4.bindTooltip(
+                `<div>
+                     Madagascar, Antananarivo: $523
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ee8016ae8074ec09bd5d1caaa725c1d = L.marker(
+                [-13.9875107, 33.768144],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_6ee8016ae8074ec09bd5d1caaa725c1d.bindTooltip(
+                `<div>
+                     Malawi, Lilongwe: $435
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12809965d8d84619a83630f3d7219993 = L.marker(
+                [-25.966213, 32.56745],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_12809965d8d84619a83630f3d7219993.bindTooltip(
+                `<div>
+                     Mozambique, Maputo: $504
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78fb9758a6754f1584ed7ea04380a80d = L.marker(
+                [8.3676771, 49.083416],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_78fb9758a6754f1584ed7ea04380a80d.bindTooltip(
+                `<div>
+                     Somalia, Mogadishu: $105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf7a4272dacd47d6bf8092fdb5b1f502 = L.marker(
+                [7.8699431, 29.6667897],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_cf7a4272dacd47d6bf8092fdb5b1f502.bindTooltip(
+                `<div>
+                     South Sudan, Khartoum: $448
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16999b9c77eb4c708ff76efeab097c5a = L.marker(
+                [-3.3638125, 29.3675028],
+                {}
+            ).addTo(map_1e2bbb94e9e94cb3a8acc05a66bc41f9);
+        
+    
+            marker_16999b9c77eb4c708ff76efeab097c5a.bindTooltip(
+                `<div>
+                     Burundi, Bujumbura: $260
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

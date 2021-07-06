@@ -1,0 +1,214 @@
+,country,gdp_per_capita,capital
+0,Monaco,"190,532",Monaco
+1,Liechtenstein,"179,258",Vaduz
+2,Luxembourg,"115,481",Luxembourg
+3,Bermuda,"117,768",Hamilton
+4,Cayman Islands,"92,692",George Town
+5,Switzerland,"85,135",Bern
+6,Republic of Ireland,"81,637",Dublin
+7,Macao,"84,097",Concelho de Macau
+8,Norway,"74,986",Oslo
+9,United States,"65,134","Washington, D.C."
+10,Iceland,"71,345",Reykjavík
+11,Denmark,"60,657",Copenhagen
+12,Singapore,"64,103",Singapore
+13,Qatar,"64,782",Doha
+14,Australia,"54,763",Canberra
+15,Sweden,"52,896",Stockholm
+16,Netherlands,"53,053",Amsterdam
+17,Greenland,"53,353",Nuuk
+18,Finland,"48,678",Helsinki
+19,Austria,"49,701",Vienna
+20,San Marino,"47,313",San Marino
+21,British Virgin Islands,"48,511",Charlotte Amalie
+22,Hong Kong,"49,180",Hong Kong
+23,Germany,"46,232",Berlin
+24,Belgium,"46,198",Brussels
+25,Canada,"46,550",Ottawa
+26,Israel,"46,376",Jerusalem
+27,New Zealand,"43,264",Wellington
+28,United Kingdom,"41,855",London
+29,France,"40,319",Paris
+30,Japan,"40,063",Tokyo
+31,Andorra,"40,887",Andorra la Vella
+32,United Arab Emirates,"43,103",Abu Dhabi
+33,New Caledonia,"34,942",Nouméa
+34,Puerto Rico,"35,791",San Juan
+35,Italy,"33,090",Rome
+36,South Korea,"32,143",Seoul
+37,Brunei,"31,086",Bandar Seri Begawan
+38,Taiwan,,Taipei
+39,The Bahamas,"34,864",Nassau
+40,Malta,"33,752",Valletta
+41,Kuwait,"31,999",Kuwait City
+42,Spain,"29,816",Madrid
+43,Sint Maarten,,Philipsburg
+44,Cyprus,"28,285",Nicosia
+45,Aruba,"30,975",Oranjestad
+46,Turks and Caicos Islands,"31,353",Cockburn Town
+47,Slovenia,"26,062",Ljubljana
+48,Anguilla,"25,529",The Valley
+49,Estonia,"23,740",Tallinn
+50,Czechia,"23,452",Prague
+51,Bahrain,"23,504",Manama
+52,Portugal,"23,350",Lisbon
+53,Saudi Arabia,"23,140",Riyadh
+54,Cook Islands,"21,603",Avarua
+55,Lithuania,"19,795",Vilnius
+56,French Polynesia,"21,567",Papeete
+57,Slovakia,"19,256",Bratislava
+58,Greece,"19,604",Athens
+59,Saint Kitts and Nevis,"19,896",Basseterre
+60,Latvia,"17,885",Riga
+61,Curacao,"18,980",Willemstad
+62,Hungary,"16,879",Budapest
+63,Barbados,"18,149",Bridgetown
+64,Poland,"15,727",Warsaw
+65,Oman,"15,343",Muscat
+66,Croatia,"14,627",Zagreb
+67,Trinidad and Tobago,"16,637",Port-of-Spain
+68,Uruguay,"16,190",Montevideo
+69,Antigua and Barbuda,"17,113",Saint John’s
+70,Chile,"14,896",Santiago
+71,Palau,"15,572",
+72,Romania,"12,914",Bucharest
+73,Panama,"15,728",Panama City
+74,Montserrat,"13,487",Brades
+75,China,"10,004",Beijing
+76,Costa Rica,"12,238",San José
+77,Russia,"11,606",Moscow
+78,Malaysia,"11,414",Kuala Lumpur
+79,American Samoa,,Apia
+80,Bulgaria,"9,703",Sofia
+81,Nauru,"12,351",Yaren
+82,Maldives,"10,626",Malé
+83,Kazakhstan,"9,793",Nursultan
+84,Saint Lucia,"11,611",Castries
+85,Seychelles,"17,382",Victoria
+86,Mauritius,"11,169",Port Louis
+87,Turkey,"9,127",Ankara
+88,Cuba,"9,296",Havana
+89,Mexico,"9,849",Mexico City
+90,Guyana,"6,610",Georgetown
+91,Grenada,"10,818",Saint George's
+92,Argentina,"10,041",Buenos Aires
+93,Montenegro,"8,825",Podgorica
+94,Turkmenistan,"8,124",Ashgabat
+95,Serbia,"7,359",Belgrade
+96,Gabon,"7,773",Libreville
+97,Equatorial Guinea,"8,130",Conakry
+98,Iran,"7,282",Tehran
+99,Dominican Republic,"8,282",Santo Domingo
+100,Botswana,"7,961",Gaborone
+101,Thailand,"7,785",Bangkok
+102,Saint Vincent and the Grenadines,"7,464",Kingstown
+103,Brazil,"8,755",Brasília
+104,Dominica,"8,111",Roseau
+105,Bosnia and Herzegovina,"6,109",Sarajevo
+106,Peru,"6,978",Lima
+107,North Macedonia,"6,093",Skopje
+108,Belarus,"6,674",Minsk
+109,Albania,"5,303",Tirana
+110,Colombia,"6,432",Bogotá
+111,Ecuador,"6,184",Quito
+112,South Africa,"6,001",Pretoria
+113,Jamaica,"5,369",Kingston
+114,Paraguay,"5,406",Asunción
+115,Tuvalu,"4,036",Funafuti
+116,Tonga,"4,865",Nuku‘alofa
+117,Fiji,"6,185",Suva
+118,Azerbaijan,"4,782",Baku
+119,Kosovo,"4,473",Pristina
+120,Moldova,"2,957",Chisinau
+121,Iraq,"5,730",Baghdad
+122,Guatemala,"4,363",Guatemala City
+123,Namibia,"4,957",Windhoek
+124,Georgia,"4,439",Tbilisi
+125,Jordan,"4,405",Amman
+126,Indonesia,"4,136",Jakarta
+127,Marshall Islands,"4,038",Majuro
+128,Mongolia,"4,295",Ulaanbaatar
+129,Armenia,"4,623",Yerevan
+130,El Salvador,"4,187",San Salvador
+131,Suriname,"6,360",Paramaribo
+132,Ukraine,"3,496",Kiev
+133,Belize,"4,884",Belmopan
+134,Egypt,"3,161",Cairo
+135,Sri Lanka,"3,940",Colombo
+136,Federated States of Micronesia,"3,640",
+137,Eswatini,"4,002",Mbabane
+138,Tunisia,"3,318",Tunis
+139,Samoa,"4,285",Apia
+140,Philippines,"3,324",Manila
+141,Bolivia,"3,552",Sucre
+142,Libya,"4,810",Tripoli
+143,Vietnam,"2,715",Hanoi
+144,Cape Verde,"3,604",Praia
+145,Morocco,"3,282",Rabat
+146,Algeria,"3,976",Algiers
+147,Bhutan,"3,361",Thimphu
+148,Djibouti,"3,252",Djibouti
+149,State of Palestine,"3,424",Ramallah
+150,Vanuatu,"3,023",Port-Vila
+151,Syria,"1,194",Damascus
+152,Lebanon,"7,784",Beirut
+153,Laos,"2,625",Vientiane
+154,Papua New Guinea,"2,845",Port Moresby
+155,Honduras,"2,575",Tegucigalpa
+156,Ivory Coast,"2,276",Yamoussoukro
+157,Republic of the Congo,"2,304",Brazzaville
+158,Solomon Islands,"1,945",Honiara
+159,Nigeria,"2,361",Abuja
+160,Ghana,"2,203",Accra
+161,India,"2,116",New Delhi
+162,Mauritania,"1,678",Nouakchott
+163,Sao Tome and Principe,"1,961",São Tomé
+164,Kenya,"1,817",Nairobi
+165,Bangladesh,"1,846",Dhaka
+166,Angola,"2,671",Luanda
+167,Haiti,715,Port-au-Prince
+168,Kiribati,"1,657",Tarawa
+169,Nicaragua,"1,913",Managua
+170,Uzbekistan,"1,756",Tashkent
+171,Cambodia,"1,644",Phnom Penh
+172,Zimbabwe,"1,464",Harare
+173,Cameroon,"1,534",Yaoundé
+174,Senegal,"1,452",Dakar
+175,Venezuela,"4,733",Caracas
+176,Myanmar,"1,421",
+177,Comoros,"1,370",Moroni
+178,Benin,"1,220",Porto-Novo
+179,East Timor,"1,561",Dili
+180,Pakistan,"1,187",Islamabad
+181,Nepal,"1,074",Kathmandu
+182,Lesotho,"1,158",Maseru
+183,Guinea,967,Conakry
+184,Kyrgyzstan,"1,318",Bishkek
+185,Tanzania,"1,084",Dodoma
+186,Togo,899,Lomé
+187,Mali,887,Bamako
+188,Zambia,"1,292",Lusaka
+189,Uganda,737,Kampala
+190,Ethiopia,828,Addis Ababa
+191,Guinea-Bissau,688,Bissau
+192,Burkina Faso,787,Ouagadougou
+193,The Gambia,776,Banjul
+194,Rwanda,820,Kigali
+195,Tajikistan,894,Dushanbe
+196,Sudan,815,Khartoum
+197,Yemen,855,Sanaa
+198,Chad,707,N'Djamena
+199,Liberia,523,Monrovia
+200,North Korea,640,Pyongyang
+201,Niger,555,Niamey
+202,Eritrea,567,Asmara
+203,Afghanistan,470,Kabul
+204,Democratic Republic of the Congo,545,Brazzaville
+205,Central African Republic,468,Bangui
+206,Sierra Leone,528,Freetown
+207,Madagascar,523,Antananarivo
+208,Malawi,435,Lilongwe
+209,Mozambique,504,Maputo
+210,Somalia,105,Mogadishu
+211,South Sudan,448,Khartoum
+212,Burundi,260,Bujumbura
